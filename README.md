@@ -11,7 +11,7 @@
 > - 🌐 **[Launch the Free Web-Based SaaS Burn & MRR Variance Simulator](#step-by-step-tutorial-how-to-run-a-weekly-saas-finance-kpi-audit)** — Explore the weekly SaaS KPI dashboard, test MTD cash burn pacing alerts, and inspect MRR waterfall mechanics online with no installation or registration.
 > - 📥 **[Download the Weekly SaaS Financial Control Excel Workbook (.xlsx)](#who-this-saas-fpa-workbook-is-built-for-roles-workflows)** — Get the full spreadsheet template for recurring Monday finance reviews, offline multi-system data reconciliation (`QuickBooks`, `Stripe`, `Salesforce`, `Gusto`, `Deel`), and formal month-end Budget vs. Actual (BvA) close tracking.
 >
-> *Deployment & Commercial Note: Connect the placeholder links above to your live browser demo and Excel checkout endpoints upon release. If distributing the Excel workbook commercially, state pricing and refund terms clearly on the product listing.*
+
 
 ---
 
