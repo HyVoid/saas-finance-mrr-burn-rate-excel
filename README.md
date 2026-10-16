@@ -1,122 +1,136 @@
-# Weekly SaaS Finance Control & Variance Analyzer
+# B2B SaaS Weekly Finance Control, Burn Rate & MRR Variance Excel Template (NRR, GRR & BvA Analyzer)
 
 [![License: Apache 2.0](https://img.shields.io/badge/License-Apache%202.0-blue.svg)](LICENSE)
 ![Platform: Browser + Excel](https://img.shields.io/badge/Platform-Browser%20%2B%20Excel-2563EB)
-![Tool Type: Decision Support](https://img.shields.io/badge/Tool-Decision%20Support-0F766E)
+![Tool Type: SaaS FP&A & Variance Control](https://img.shields.io/badge/Tool-SaaS%20FP%26A%20%26%20Variance%20Control-0F766E)
 
-**Monitor SaaS cash burn, recurring revenue, customer retention, sales conversion, and personnel costs before month-end close — using a free browser version or an Excel-based financial control workbook, with no installation required for the browser experience.**
+**A weekly B2B SaaS financial control workbook, MTD cash burn rate tracker, and MRR/ARR waterfall variance analyzer. Built for venture-backed SaaS CEOs, Fractional CFOs, and FP&A analysts to audit Net Revenue Retention (NRR), Gross Revenue Retention (GRR), demo-to-close sales funnel conversion, and fully loaded payroll costs before month-end accounting close—available as a free browser-based simulator (no signup required) and a downloadable Microsoft Excel template.**
 
-> **Start with the free browser version.**
+> **Access the Weekly SaaS FP&A & Variance Control Tools**
 >
-> No signup. No installation. Free to use.
+> - 🌐 **[Launch the Free Web-Based SaaS Burn & MRR Variance Simulator](#step-by-step-tutorial-how-to-run-a-weekly-saas-finance-kpi-audit)** — Explore the weekly SaaS KPI dashboard, test MTD cash burn pacing alerts, and inspect MRR waterfall mechanics online with no installation or registration.
+> - 📥 **[Download the Weekly SaaS Financial Control Excel Workbook (.xlsx)](#who-this-saas-fpa-workbook-is-built-for-roles-workflows)** — Get the full spreadsheet template for recurring Monday finance reviews, offline multi-system data reconciliation (`QuickBooks`, `Stripe`, `Salesforce`, `Gusto`, `Deel`), and formal month-end Budget vs. Actual (BvA) close tracking.
 >
-> - [🌐 Open in Browser](#quick-start-workflow) — use the browser-based version when a live demo URL is not yet configured.
-> - [📥 Get the Excel Version](#who-this-is-for) — use the workbook for recurring weekly reviews, offline analysis, and retained financial records. Commercial download and purchase links should be added when published.
->
-> The Excel version is designed for repeatable operational use. If it is sold commercially, the applicable product listing should clearly state its price and refund terms.
+> *Deployment & Commercial Note: Connect the placeholder links above to your live browser demo and Excel checkout endpoints upon release. If distributing the Excel workbook commercially, state pricing and refund terms clearly on the product listing.*
 
-## What It Helps You Track
+---
 
-A monthly accounting close is too slow to serve as the only source of management information for a venture-backed B2B SaaS company. Weekly decisions require a consistent view of financial performance, recurring revenue, customer behavior, sales execution, and staffing costs.
+## Core B2B SaaS Metrics & Pre-Close Financial Blind Spots Solved
 
-This tool brings those operating signals into one decision-support workflow.
+Waiting 15–20 days after month-end for external bookkeepers to close the general ledger is too slow for venture-backed B2B SaaS execution. This decision-support engine unifies weekly billing, CRM, and payroll signals into an auditable operational ledger. Here is how the model maps **SaaS financial management pain points** to automated **FP&A and retention KPIs**:
 
-- **Cash burn against budget:** See month-to-date net burn, the approved monthly target, the absolute variance, and whether spending is running ahead of the reporting period.
-- **MRR and ARR movement:** Separate new business, customer expansion, contraction, and churn to understand what is driving recurring revenue.
-- **Customer retention quality:** Review gross revenue retention (GRR), net revenue retention (NRR), and customer logo churn to distinguish expansion-led growth from deterioration in the existing customer base.
-- **Sales funnel execution:** Compare booked demonstrations, completed demonstrations, closed-won customers, and forecast performance to identify where conversion is breaking down.
-- **Fully loaded personnel costs:** Compare salary and employer taxes or benefits across departments to make staffing-related spending visible.
-- **Data exceptions and cost-reduction actions:** Surface material discrepancies, document explanations, assign owners, and track proposed savings through implementation.
+| SaaS Financial Control Pain Point | Weekly Accrual & Variance Mechanism | Key SaaS & FP&A Metrics Tracked |
+| :--- | :--- | :--- |
+| **Mid-Month Cash Burn Overshoot** | Compares Month-to-Date (MTD) accrual spend against approved monthly budget and elapsed calendar time % to flag intra-month overspending. | MTD net cash burn ($), monthly burn target ($150k baseline), burn pacing vs. elapsed month (%), BvA dollar/percent variance |
+| **Opaque Top-Line MRR & ARR Movements** | Decomposes aggregate recurring revenue into a 4-part MRR bridge so expansion spikes never mask underlying customer churn. | New Business MRR, Expansion MRR, Contraction (Downgrade) MRR, Churned MRR, Net New ARR |
+| **Hidden Customer Cohort & Logo Deterioration** | Separates expansion-driven revenue growth from core base erosion using distinct institutional retention benchmarks. | Gross Revenue Retention (`GRR %`), Net Revenue Retention (`NRR %` vs. 105% target), monthly Customer Logo Churn (`%` vs. 2% ceiling) |
+| **Disconnected CRM Pipeline & Revenue Forecasts** | Links top-of-funnel demo activity to closed-won ARR to pinpoint whether revenue misses stem from lead volume or sales execution. | Booked demos, completed demos, Closed-Won deals, Demo-to-Close conversion rate (`%` vs. 20% benchmark), forecast variance |
+| **Unallocated Fully Burdened Headcount Costs** | Consolidates domestic and EOR contractor payroll alongside statutory employer taxes and benefits by department (`R&D`, `S&M`, `G&A`). | Fully loaded personnel cost by department, base salary vs. employer tax/benefit burden ratio |
+| **Unowned Cross-System Variances & OpEx Leakage** | Routes material cross-system discrepancies (`>5%` threshold) into an accountable exception and cost-reduction ledger. | Cross-system reconciliation flags, assigned action owners, projected monthly OpEx savings ($), implementation status |
 
-The objective is not to produce another dashboard full of numbers. It is to make the next management decision easier to justify, investigate, and execute.
+---
 
-## Quick Start Workflow
+## Step-by-Step Tutorial: How to Run a Weekly SaaS Finance & KPI Audit
 
-The operating model follows a simple cycle: configure the reporting period, import existing data, review the results, and refresh the workbook on a recurring schedule.
+The workbook establishes a disciplined **weekly Monday FP&A operating cadence**: configure your board-approved SaaS benchmarks once, drop in weekly CSV exports from your billing/CRM/HR stack, resolve flagged exceptions, and reconcile against formal month-end actuals.
 
-### 1. Set the reporting parameters
+### Step 1: Configure SaaS Benchmarks, Burn Targets & Variance Thresholds
+Open the `Settings & Benchmarks` tab to establish your reporting governance and alert thresholds:
 
-Open the dedicated settings area and establish the reporting cutoff date, reporting currency, monthly burn target, variance threshold, and relevant SaaS performance benchmarks.
+- **Reporting & Liquidity Controls:** Define the weekly reporting cutoff date, base currency, approved monthly net burn target (reference default: `$150,000/month`), and materiality variance threshold (reference default: `5%`).
+- **Institutional SaaS KPI Targets:** Set your target **Net Revenue Retention (NRR)** benchmark (default: `105%`), maximum **Monthly Logo Churn** ceiling (default: `2.0%`), and **Demo-to-Close Conversion** target (default: `20%`).
 
-The reference configuration uses a 5% variance threshold, a monthly net burn target of $150,000, an NRR benchmark of 105%, a monthly logo churn ceiling of 2%, and a demonstration-to-close benchmark of 20%. These are example starting assumptions from the implementation design, not universal industry standards. Replace them with approved company targets.
+*(Note: Reference settings are illustrative operational defaults. Replace them with your board-approved annual operating plan [AOP] targets.)*
 
-### 2. Import the existing operating data
+### Step 2: Import Weekly Snapshots from Billing, Accounting, CRM & Payroll
+Export point-in-time CSV/XLSX tables from your existing B2B SaaS tech stack and paste them into the standardized input sheets (retaining extraction timestamps and cutoff dates):
 
-Export the relevant snapshots from the systems already in use, or copy and paste data from existing spreadsheets into the designated input tables.
+- **Accounting & Subscription Billing (`QuickBooks` + `Stripe`):** General ledger expense snapshots, invoice runs, and subscription MRR movement logs.
+- **CRM & Contract Management (`Salesforce` + `PandaDoc`):** Booked/completed sales demos, pipeline forecasts, and executed contract values.
+- **HRIS & Global Payroll (`Gusto` + `Deel`):** Departmental headcount rosters, base salaries, employer payroll taxes, benefits, and international EOR contractor invoices.
 
-The reference workflow covers:
+### Step 3: Audit the Weekly Executive Dashboard & Exception Queue
+Navigate to the `Executive Dashboard` and `KPI Variance` views to inspect operational health before Monday leadership standups:
 
-- QuickBooks and Stripe for financial and billing information.
-- Salesforce and PandaDoc for customer, contract, and sales information.
-- Gusto and Deel for employee and compensation information.
+1. **MTD Burn Pacing Check:** Verify whether cumulative monthly spend is outrunning elapsed calendar time (e.g., 60% of budget burned at 45% of the month elapsed).
+2. **MRR Waterfall & Retention Audit:** Inspect New, Expansion, Contraction, and Churned MRR alongside `GRR` and `NRR` to verify core product stickiness.
+3. **Exception & Cost-Action Routing:** Investigate any cross-system discrepancy exceeding your `5%` variance threshold before treating numbers as decision-ready, and assign department owners to documented OpEx reduction initiatives.
 
-Keep the reporting cutoff date, source-system identity, and extraction timestamp associated with each batch. The workbook is designed around standardized input tables, but source exports must still match the documented field structure. Unmapped data should not be treated as automatically compatible.
+### Step 4: Reconcile Against Month-End Closed Actuals & Operationalize in Excel
+Run Steps 2–3 every week. Once your external accounting firm or internal controller publishes the **formal monthly or quarterly GAAP/IFRS close**, input the closed figures into the `Reconciliation Workflow` tab to measure estimation accuracy and tighten future weekly accrual assumptions.
 
-### 3. Review the results
+> 📊 **Ready to eliminate the 20-day month-end blind spot in your SaaS operations?** 
+> After exploring the KPI layout in the **[Free Browser-Based SaaS Finance Control Simulator](#step-by-step-tutorial-how-to-run-a-weekly-saas-finance-kpi-audit)**, download the **[Reusable Weekly SaaS Finance & Variance Excel Workbook (.xlsx)](#who-this-saas-fpa-workbook-is-built-for-roles-workflows)** to connect your live Stripe, QuickBooks, Salesforce, and Gusto/Deel exports, track cost-saving owners, and maintain an auditable weekly board record.
 
-Open the executive dashboard and KPI analysis view. Review the burn position, MRR movements, retention indicators, sales funnel, personnel costs, data exceptions, and outstanding cost-reduction actions.
+---
 
-Investigate flagged discrepancies before treating the resulting figures as decision-ready. A calculated result is not automatically a verified result.
+## Why I Built This Weekly SaaS Financial Control Framework
 
-### 4. Refresh on a recurring schedule
+A venture-backed B2B SaaS startup can receive clean, CPA-verified monthly financial statements and still make catastrophic weekly operating decisions.
 
-Repeat the import and review process every week. After the external accounting team publishes the official monthly or quarterly figures, enter the closed actuals into the reconciliation workflow and compare them with the earlier operating estimates.
+The root cause is **information latency**: external bookkeepers and accounting teams typically close the books 15 to 25 days after month-end, whereas a SaaS CEO and executive team make hiring, marketing, and vendor commitments every Monday. A raw bank balance ignores accrued liabilities; a Stripe revenue chart ignores QuickBooks cash burn; and a Salesforce pipeline report ignores churn.
 
-The purpose of this recurring process is to preserve continuity between weekly management decisions and formal accounting results, rather than rebuilding a new analysis every reporting cycle.
+### 1. The "45% Elapsed Time vs. 60% Burned" Intra-Month Pacing Trap
+Consider a Series A SaaS company operating against an approved **$150,000 monthly net burn target**.
 
-**Set the reporting parameters. Import the existing data. Review the analysis. Refresh when needed.**
+On Day 14 of the month (**45% of the month elapsed**), the MTD spend sits at **$90,000**. Looked at as an isolated dollar figure, $90,000 is still $60,000 below the monthly cap—so a naive tracker shows green. In reality, the company has already consumed **60% of its monthly burn allowance** with more than half the month remaining. By flagging **burn pacing relative to elapsed time**, leadership can freeze discretionary cloud/marketing spend or pause non-critical requisitions *mid-month*, rather than discovering a $40,000 budget overrun three weeks after the month closes.
 
-## Why I Built This
+### 2. The "Net MRR Growth" Masking High Gross Churn Trap
+The same visibility failure occurs in recurring revenue. Headline MRR might grow by $15,000 in a week because two enterprise accounts upgraded (`Expansion MRR`), concealing the fact that ten mid-market customers canceled (`Logo Churn` & `Contraction MRR`). Relying solely on Net New ARR masks product-market fit erosion until expansion inevitably slows.
 
-A venture-backed SaaS company can have accurate financial statements and still make poor weekly operating decisions.
+I built this analyzer as a **productized FP&A reasoning workflow**—connecting multi-system data intake, statistical validation, MRR waterfall decomposition, cost-action accountability, and post-close accounting reconciliation in one repeatable model.
 
-The problem is often a mismatch between the timing of accounting information and the timing of management decisions. An external accounting team may close the books monthly or quarterly, while the CEO needs to know every Monday whether spending is accelerating, whether customer retention is deteriorating, and whether the current sales pipeline can support the operating plan.
+---
 
-A bank balance alone cannot answer those questions. Neither can a revenue dashboard, a payroll report, or an isolated sales forecast.
+## Monthly Accounting Close vs. Weekly SaaS Finance Control Engine
 
-Consider a company with a monthly net burn target of $150,000. If 45% of the month has elapsed but the operating estimate already indicates that 60% of the monthly target has been consumed, a simple month-to-date total does not communicate the full operational risk. The spending trajectory is running ahead of time. Management may need to review discretionary expenses, hiring plans, or infrastructure commitments before the formal close confirms the result.
+| SaaS Finance & Operations Dimension | Waiting on Month-End Accounting Close & Siloed Dashboards | Weekly SaaS Finance Control & Variance Analyzer (This Tool) |
+| :--- | :--- | :--- |
+| **Financial Visibility Latency** | Leadership waits 2–3 weeks post-month-end for formal statements before spotting OpEx spikes or runway erosion. | Weekly accrual-based operating estimates surface early risk signals, backed by end-of-month reconciliation against closed actuals. |
+| **Cash Burn Rate Pacing Control** | MTD spend is viewed as a flat dollar sum without measuring consumption speed against elapsed calendar days. | Benchmarks **MTD net burn against both the $150k budget target and elapsed month %** to catch pacing overshoots mid-month. |
+| **Recurring Revenue (MRR/ARR) Attribution** | Top-line revenue dashboards blend new sales and upsells with downgrades, masking underlying cohort decay. | Splits recurring revenue into a strict **MRR Waterfall: New Business, Expansion, Contraction, and Churned MRR**. |
+| **Customer Retention & Churn Quality** | Net revenue growth is mistaken for customer health, overlooking high logo churn among core cohorts. | Tracks **Gross Revenue Retention (GRR), Net Revenue Retention (NRR vs. 105%), and Logo Churn (vs. 2% ceiling)** side by side. |
+| **Sales Funnel & Demo Conversion Auditing** | Booked demos, completed demos, signed PandaDoc contracts, and revenue forecasts sit in disconnected CRM views. | Connects **Booked Demos $\rightarrow$ Completed Demos $\rightarrow$ Closed-Won deals** to audit the `20%` demo-to-close conversion benchmark. |
+| **Cross-System Variance & OpEx Accountability** | Discrepancies between Stripe, QuickBooks, and Gusto/Deel go unexplained, and cost-cutting pledges lack follow-through. | Enforces a **5% variance exception workflow** and assigns every cost-reduction action an accountable owner, dollar target, and status. |
 
-A similar problem appears in recurring revenue. An increase in total MRR can conceal substantial churn if expansion from a few existing customers offsets losses elsewhere. Looking only at net growth can therefore produce a misleading assessment of customer health.
+---
 
-I designed this tool as a **productized reasoning framework**, not a one-off spreadsheet. It standardizes the sequence from source-data intake to validation, performance analysis, exception review, cost action, and eventual reconciliation with official accounting results.
+## Who This SaaS FP&A Workbook Is Built For: Roles & Workflows
 
-The framework does not replace accounting judgment or management accountability. It makes assumptions, discrepancies, and operational consequences easier to see before decisions become more expensive to reverse.
+This dual-format (Browser + Excel) financial control toolkit is engineered for B2B SaaS operators and finance professionals managing distributed operational data:
 
-## Common SaaS Finance Problems This Solves
+- **Venture-Backed SaaS CEOs, Founders & COOs (Seed to Series B):** Establish a single source of truth for Monday leadership meetings. Use the **weekly SaaS executive dashboard** to monitor cash burn pacing, NRR/GRR health, and sales funnel velocity weeks before your external accountant delivers month-end financials.
+- **Fractional CFOs, Heads of Finance & SaaS FP&A Analysts:** Standardize multi-client or internal weekly reporting without paying $30,000+/year for enterprise FP&A software. Use the **SaaS budget vs. actual (BvA) variance Excel template** to reconcile weekly operational estimates against closed GAAP/IFRS accounting actuals.
+- **VP of Sales, RevOps & Customer Success Leaders:** Align GTM execution with financial targets. Use the **MRR bridge and funnel conversion tracker** to separate top-of-funnel demo slippage (`Booked vs. Completed Demos`) from downstream retention problems (`Contraction vs. Logo Churn`).
+- **Engineering, Product & Department Budget Owners:** Gain clear visibility into **fully burdened headcount costs** (combining domestic payroll and international EOR contractors) and track assigned OpEx cost-reduction initiatives from proposal to realized monthly savings.
+- **SaaS Investors, Operating Partners & Board Advisors:** Deploy a lightweight, repeatable **portfolio reporting template** across early-stage portfolio companies to instill financial discipline and audit cash runway assumptions.
 
-| Problem | Without This Tool | With This Tool |
-|---|---|---|
-| Delayed financial close | Management waits for formal statements before investigating spending deterioration. | Weekly accrual-based estimates provide an earlier operating signal, with later reconciliation against closed actuals. |
-| Burn-rate overshoot | A monthly total is reviewed without considering how quickly the budget is being consumed. | Month-to-date burn is compared with the budget target and elapsed-month progress. |
-| Misleading recurring-revenue growth | New sales and expansion obscure contraction or churn in the existing customer base. | MRR movements are separated into new, expansion, contraction, and churn components. |
-| Hidden retention deterioration | Net revenue growth is interpreted as proof that the customer base is healthy. | GRR, NRR, and logo churn provide distinct views of revenue retention and customer losses. |
-| Sales forecast uncertainty | Booked demos, completed demos, closed-won results, and forecasts are reviewed in separate reports. | Funnel conversion and forecast variance help identify where execution diverges from expectations. |
-| Unowned cost discrepancies | Differences between systems remain unexplained, while potential savings lack accountable owners. | Material variances enter an exception workflow; cost actions carry an owner, estimated monthly savings, and execution status. |
+---
 
-These controls are intended to reduce decision delays and prevent inconsistent source data from being mistaken for a reliable operating picture. They do not guarantee that an estimate is correct; they make its assumptions and limitations easier to inspect.
+## Industry Use Cases & Long-Tail SaaS Finance Scenarios
 
-## Who This Is For
+Whether you operate a product-led growth (PLG) software company or an enterprise sales-led B2B SaaS platform, this workbook solves high-friction multi-system reporting challenges:
 
-This tool is designed for venture-backed B2B SaaS companies that need a repeatable weekly finance review before formal accounting close, particularly companies with financial and operational data distributed across billing, accounting, CRM, contract, and payroll systems.
+### 1. Reconciling the Modern B2B SaaS Tech Stack (QuickBooks + Stripe + Salesforce + PandaDoc + Gusto + Deel)
+Early-stage SaaS companies rarely run on a single monolithic ERP. Billing lives in **Stripe**, accounting lives in **QuickBooks**, pipeline lives in **Salesforce**, signed order forms live in **PandaDoc**, US payroll runs on **Gusto**, and global contractors run through **Deel**. This workbook provides standardized intake tables to join these six exact data streams into one coherent weekly P&L and KPI view—flagging unmapped records or cross-system discrepancies (`>5%`) before they corrupt executive decisions.
 
-Typical users include:
+### 2. Mid-Month Cash Preservation & OpEx Cost-Reduction Tracking
+During runway extension initiatives or board-mandated burn reductions, cutting expenses on paper is easy—realizing them in cash flow is hard. The built-in **Cost-Reduction Action Ledger** forces every proposed saving (e.g., cloud infrastructure rightsizing, SaaS license consolidation, hiring deferrals) to carry a named department owner, estimated monthly dollar impact, and execution status (`Proposed`, `In Progress`, `Realized`).
 
-- **CEOs and executive teams** who need an early warning on burn, recurring revenue, and operating performance.
-- **Finance analysts and fractional CFOs** who consolidate weekly data, investigate variances, and reconcile estimates with official results.
-- **Sales and customer-success leaders** who need to distinguish acquisition performance from retention deterioration.
-- **Department owners** who must explain material cost changes and take responsibility for approved cost-reduction actions.
+### 3. Bridging Weekly Flash Estimates to Outsourced Month-End Accounting Closes
+Most Seed and Series A startups rely on outsourced bookkeeping firms that close the books on a 15-to-30-day lag. By pairing **weekly flash operating estimates** with a dedicated **Post-Close Actuals Reconciliation workflow**, finance teams can measure where weekly accruals drifted from formal accounting statements—continuously improving estimation accuracy over time.
 
-It is not designed to replace a general ledger, perform statutory accounting, guarantee real-time synchronization with source systems, or substitute for a full enterprise planning platform. The reference implementation uses periodic data snapshots and requires users to review source mappings and assumptions.
+---
 
-**No spreadsheet expertise is needed to start with the browser version.** Open the published web version and begin reviewing the available workflow. The Excel version is better suited to users who need a retained workbook, repeatable reporting, and direct control over their working data.
+### Operational Scope & Governance Disclaimer
+*This tool is a weekly operational decision-support model and FP&A variance analyzer—not a statutory general ledger (GL), automated ETL data pipeline, GAAP/IFRS revenue recognition engine, or enterprise ERP replacement. It relies on periodic CSV/spreadsheet snapshots exported from source systems and requires users to verify field mappings, cutoff timestamps, and accrual assumptions. Calculated indicators must pass exception review before driving binding financial commitments.*
 
-## About
+---
 
-I build lightweight trackers and decision-support tools for situations where too many moving parts make it difficult to hold the whole problem in view. The central question is simple: **What information needs to be in one place to make the next decision confidently?**
+## About the Creator
 
-The Weekly SaaS Finance Control & Variance Analyzer applies that approach to recurring financial and operational reviews. It connects the weekly operating estimate to the management decision, the resulting action, and the later check against formal accounting results.
+I build lightweight, inspectable operational decision-support tools for high-stakes business workflows where critical signals get buried across disconnected SaaS platforms and spreadsheets. The central engineering question is simple: **What exact financial, revenue, and operational metrics must sit in one place on Monday morning to make the next management decision confidently?**
 
-The goal is not to automate judgment away. It is to give judgment a more consistent, inspectable basis.
 ## Technical Details
 
 <details>
