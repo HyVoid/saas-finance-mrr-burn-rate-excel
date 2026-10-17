@@ -1,3 +1,5 @@
+[ 🌐 عربي ](README.ar.md) | [ 🇩🇪 Deutsch ](README.de.md) | [ 🇫🇷 Français ](README.fr.md) | [ 🇳🇱 Nederlands ](README.nl.md) | [ 🇪🇸 Español ](README.sp.md) | [ 🇬🇧 English ](README.md)
+
 # B2B SaaS Weekly Finance Control, Burn Rate & MRR Variance Excel Template (NRR, GRR & BvA Analyzer)
 <img width="1920" height="790" alt="image" src="https://github.com/user-attachments/assets/42ffbf57-1f2d-4985-baf0-5556376a1749" />
 
