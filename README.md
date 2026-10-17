@@ -1,4 +1,5 @@
 # B2B SaaS Weekly Finance Control, Burn Rate & MRR Variance Excel Template (NRR, GRR & BvA Analyzer)
+<img width="1920" height="790" alt="image" src="https://github.com/user-attachments/assets/42ffbf57-1f2d-4985-baf0-5556376a1749" />
 
 [![License: Apache 2.0](https://img.shields.io/badge/License-Apache%202.0-blue.svg)](LICENSE)
 ![Platform: Browser + Excel](https://img.shields.io/badge/Platform-Browser%20%2B%20Excel-2563EB)
