@@ -9,8 +9,8 @@
 
 > **Access the Weekly SaaS FP&A & Variance Control Tools**
 >
-> - 🌐 **[Launch the Free Web-Based SaaS Burn & MRR Variance Simulator](#step-by-step-tutorial-how-to-run-a-weekly-saas-finance-kpi-audit)** — Explore the weekly SaaS KPI dashboard, test MTD cash burn pacing alerts, and inspect MRR waterfall mechanics online with no installation or registration.
-> - 📥 **[Download the Weekly SaaS Financial Control Excel Workbook (.xlsx)](https://theseusworkshop.com/l/ilgrvh)** — Get the full spreadsheet template for recurring Monday finance reviews, offline multi-system data reconciliation (`QuickBooks`, `Stripe`, `Salesforce`, `Gusto`, `Deel`), and formal month-end Budget vs. Actual (BvA) close tracking.
+> - 🌐 **[Launch the Free Web-Based SaaS Burn & MRR Variance Simulator](https://hyvoid.github.io/saas-finance-mrr-burn-rate-excel/)** — Explore the weekly SaaS KPI dashboard, test MTD cash burn pacing alerts, and inspect MRR waterfall mechanics online with no installation or registration.
+> - 📥 **[Download the Weekly SaaS Financial Control Excel Workbook (.xlsx)](https://theseusworkshop.com/l/ilgrvh?utm_source=github&utm_medium=GitHub%20README)** — Get the full spreadsheet template for recurring Monday finance reviews, offline multi-system data reconciliation (`QuickBooks`, `Stripe`, `Salesforce`, `Gusto`, `Deel`), and formal month-end Budget vs. Actual (BvA) close tracking.
 >
 
 
@@ -61,7 +61,7 @@ Navigate to the `Executive Dashboard` and `KPI Variance` views to inspect operat
 Run Steps 2–3 every week. Once your external accounting firm or internal controller publishes the **formal monthly or quarterly GAAP/IFRS close**, input the closed figures into the `Reconciliation Workflow` tab to measure estimation accuracy and tighten future weekly accrual assumptions.
 
 > 📊 **Ready to eliminate the 20-day month-end blind spot in your SaaS operations?** 
-> After exploring the KPI layout in the **[Free Browser-Based SaaS Finance Control Simulator](#step-by-step-tutorial-how-to-run-a-weekly-saas-finance-kpi-audit)**, download the **[Reusable Weekly SaaS Finance & Variance Excel Workbook (.xlsx)](#who-this-saas-fpa-workbook-is-built-for-roles-workflows)** to connect your live Stripe, QuickBooks, Salesforce, and Gusto/Deel exports, track cost-saving owners, and maintain an auditable weekly board record.
+> After exploring the KPI layout in the **[Free Browser-Based SaaS Finance Control Simulator](https://hyvoid.github.io/saas-finance-mrr-burn-rate-excel/)**, download the **[Reusable Weekly SaaS Finance & Variance Excel Workbook (.xlsx)](https://theseusworkshop.com/l/ilgrvh?utm_source=github&utm_medium=GitHub%20README)** to connect your live Stripe, QuickBooks, Salesforce, and Gusto/Deel exports, track cost-saving owners, and maintain an auditable weekly board record.
 
 ---
 
