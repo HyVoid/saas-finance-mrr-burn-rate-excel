@@ -134,20 +134,23 @@ export const Sidebar: React.FC<SidebarProps> = ({
         <div className="p-5 border-b" style={{ borderColor: 'var(--color-border)' }}>
           <div className="flex items-center gap-3">
             <div
-              className="w-8 h-8 rounded-lg flex items-center justify-center font-bold text-white text-xs shadow-sm shrink-0"
+              className="w-8 h-8 rounded-lg flex items-center justify-center font-bold text-white text-xs shadow-sm shrink-0 tracking-wider"
               style={{ backgroundColor: 'var(--color-primary)' }}
             >
-              SF
+              TW
             </div>
             <div className="min-w-0">
+              <div className="text-[10px] font-bold tracking-wider uppercase" style={{ color: 'var(--color-accent)' }}>
+                Theseus Workshop
+              </div>
               <h2
                 className="font-bold text-sm leading-tight tracking-tight truncate"
                 style={{ color: 'var(--color-primary)', fontFamily: 'var(--font-heading)' }}
               >
-                SaaS Finance Controller
+                Weekly SaaS Finance Controller
               </h2>
-              <div className="text-[10px] tracking-wider uppercase font-semibold text-gray-400">
-                M365 Variance Analyzer
+              <div className="text-[10px] tracking-wider uppercase font-semibold text-gray-400 truncate">
+                Variance Analyzer · M365 Engine
               </div>
             </div>
           </div>
@@ -308,17 +311,22 @@ export const Sidebar: React.FC<SidebarProps> = ({
           </button>
           <div className="flex items-center gap-2">
             <div
-              className="w-6 h-6 rounded flex items-center justify-center font-bold text-white text-[10px]"
+              className="w-6 h-6 rounded flex items-center justify-center font-bold text-white text-[9px] shrink-0 tracking-wider"
               style={{ backgroundColor: 'var(--color-primary)' }}
             >
-              SF
+              TW
             </div>
-            <span
-              className="font-bold text-xs"
-              style={{ color: 'var(--color-primary)', fontFamily: 'var(--font-heading)' }}
-            >
-              {currentTabObj.label}
-            </span>
+            <div className="flex flex-col min-w-0">
+              <span className="text-[9px] font-bold tracking-wider uppercase text-blue-600 leading-none">
+                Theseus Workshop
+              </span>
+              <span
+                className="font-bold text-xs truncate"
+                style={{ color: 'var(--color-primary)', fontFamily: 'var(--font-heading)' }}
+              >
+                Weekly SaaS Finance Controller · {currentTabObj.label}
+              </span>
+            </div>
           </div>
         </div>
 

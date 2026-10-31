@@ -1,6 +1,6 @@
 {
   "name": "Weekly SaaS Finance Control & Variance Analyzer",
-  "description": "Executive financial controller & variance analyzer SaaS console with real-time Excel formula calculations, M365 dynamic arrays, and burn rate management.",
+  "description": "Weekly SaaS Finance Control & Variance Analyzer by Theseus Workshop. Executive financial controller & variance analyzer SaaS console with real-time Excel formula calculations, M365 dynamic arrays, and burn rate management.",
   "requestFramePermissions": [],
   "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
 }

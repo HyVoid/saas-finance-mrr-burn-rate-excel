@@ -18,7 +18,7 @@ export const Footer: React.FC = () => {
           </span>
         </div>
         <div className="text-[11px] font-mono shrink-0">
-          Weekly SaaS Finance Control &amp; Variance Engine • M365 Dynamic Array Spec
+          Theseus Workshop • Weekly SaaS Finance Control &amp; Variance Engine • M365 Dynamic Array Spec
         </div>
       </div>
     </footer>
